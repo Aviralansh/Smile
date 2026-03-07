@@ -25,6 +25,7 @@
     <div class="camera-section">
         <h2>Smile Detector</h2>
         <video id="video" width="500" height="380" autoplay></video>
+        <canvas id="canvas" width="550" height="380" style="display:none;"></canvas>
         <button onclick="startApp()" id="btn">Start Camera</button>
     </div>
 
@@ -36,7 +37,7 @@
 
         <input type="text" id="wallet" placeholder="5JJ8ex..." size="40">
 
-        <button onclick="startApp()" id="btn">Submit</button>
+        <button onclick="captureAndSend()" id="btn">Submit</button>
 
 
         <div id="status">Waiting to start...</div>
