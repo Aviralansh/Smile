@@ -1,1 +1,126 @@
-/* Dont judge, I can do UI
+/* full page */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+/* Hero Section */
+
+.hero{
+height:60vh;
+background:black;
+position:relative;
+overflow:hidden;
+}
+
+/* Hands */
+
+.hand{
+position:absolute;
+width:37vw;
+}
+
+/* Left hand */
+
+.left{
+top:-9.99%;
+left:-4%;
+transform:rotate(-13.33deg);
+}
+
+/* Right hand */
+
+.right{
+bottom:-11.33%;
+right:-1%;
+transform:rotate(-8deg);
+}
+
+/* logo */
+
+.logo img{
+
+width:250px;
+
+position:absolute;
+top:50%;
+left:50%;
+
+transform:translate(-50%,-50%);
+
+}
+
+/* Content Section */
+
+.content{
+background-color:#8494ff;
+height:40vh;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+text-align:center;
+}
+
+/* Pixel Heading */
+
+.content h1{
+font-family:"Pixelify Sans", sans-serif;
+font-size:7vw;
+font-weight:700;
+letter-spacing:6px;
+color:white;
+}
+
+/* Paragraph */
+
+.content p{
+color:white;
+font-size:18px;
+margin-top:3px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#omg{
+
+position:absolute;
+
+bottom:35%;   /* this pushes half the button into the next section */
+left:50%;
+
+transform:translateX(-50%);
+
+padding:15px 40px;
+
+font-family:"Pixelify Sans", sans-serif;
+font-size:28px;
+color:white;
+
+background:linear-gradient(to bottom, #8494ff 50%, black 50%);
+
+border:none;
+border-radius:8px;
+
+cursor:pointer;
+
+transition:0.3s;
+
+z-index:10;
+padding:30px 70px;
+
+}
+
+#omg:hover{
+
+box-shadow:
+0 0 10px #8494ff,
+0 0 20px #8494ff,
+0 8px 20px rgba(0,0,0,0.4);
+
+
+}
