@@ -90,7 +90,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 position:absolute;
 
-bottom:35%;   /* this pushes half the button into the next section */
+bottom:35%;  
 left:50%;
 
 transform:translateX(-50%);

@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #8494ff;
+}
+
+/* Header section */
+.header{
+    height: 20vh;
+    background-color: black;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Heading */
+.header h1{
+    font-size: 70px;
+    color: white;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+/* Main(content) */
+.main p{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:80px;
+
+    padding:80px;
+}
+
+.camera-section{
+    text-align:center;
+}
+
+.camera-section h2{
+    font-size: 60px;
+    font-family:"Pixelify Sans", sans-serif;
+}
+
+video{
+    margin-top: 35px;
+    border:2px solid white;
+    border-radius:15px;
+
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+.wallet-section{
+    text-align:center;
+    font-family:"Pixelify Sans", sans-serif;
+}
+
+input{
+    margin-top:20px;
+    padding:12px;
+    width:300px;
+
+    border-radius:10px;
+    border:3px solid black;
+}
+
+button{
+    display:block;
+    margin:30px auto;
+
+    padding:12px 25px;
+
+    background:black;
+    color:white;
+
+    border:none;
+    border-radius:8px;
+
+    font-family:"Pixelify Sans", sans-serif;
+}
+
+.points{
+    text-align:center;
+    margin-top:40px;
+
+    font-family:"Pixelify Sans", sans-serif;
+}
+
+.points p{
+    font-size:30px;
+}
