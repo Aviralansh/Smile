@@ -1,4 +1,4 @@
-# 😄 Smile-to-Earn Verification System
+#  Smile-to-Earn Verification System
 
 A lightweight web application that rewards users for **smiling** after passing a **voice challenge**.  
 The system uses a **FastAPI backend** with **DeepFace emotion detection**, and a **vanilla JavaScript frontend** to capture webcam frames and detect spoken triggers.
@@ -23,8 +23,6 @@ The system uses a **FastAPI backend** with **DeepFace emotion detection**, and a
 3. Frontend listens for **voice trigger words** using **Web Speech API**.  
 4. When user says `"cheese"` or `"smile"`, a webcam frame is captured.  
 5. Captured frame is sent as **base64** to the backend via HTTP POST request.  
-
-> ⚠️ Note: No external API or OpenCV is used on the frontend; everything runs **natively in the browser**.
 
 ---
 
@@ -52,7 +50,7 @@ The system uses a **FastAPI backend** with **DeepFace emotion detection**, and a
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript (Webcam + Web Speech API)  
 - **Backend:** Python, FastAPI, DeepFace, NumPy  
