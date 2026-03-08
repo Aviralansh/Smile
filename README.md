@@ -6,7 +6,7 @@ The system uses a **FastAPI backend** with **DeepFace emotion detection**, and a
 ---
 
 
-## ⚙️ Features
+##  Features
 
 - **Voice Challenge Verification:** User must say a trigger word like `"cheese"` or `"smile"` before capture.  
 - **Smile Detection:** Backend uses **DeepFace** to detect emotion from the webcam frame.  
@@ -16,7 +16,7 @@ The system uses a **FastAPI backend** with **DeepFace emotion detection**, and a
 
 ---
 
-## 🖥 Frontend Workflow
+##  Frontend Workflow
 
 1. User opens the webpage (`index.html`).  
 2. Browser asks for **camera access**.  
@@ -26,7 +26,7 @@ The system uses a **FastAPI backend** with **DeepFace emotion detection**, and a
 
 ---
 
-## 🖥 Backend Workflow
+##  Backend Workflow
 
 1. The backend receives a **POST request** at `/verify-smile` with a JSON payload containing:
    - `voice_verified`: whether the user passed the voice challenge
